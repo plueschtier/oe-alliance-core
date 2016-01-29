@@ -18,7 +18,6 @@ inherit setuptools
 do_install_append() {
     install -d ${D}${docdir}/${PN}
     mv ${D}${datadir}/README ${D}${docdir}/${PN}
-    mv ${D}${datadir}/INSTALL ${D}${docdir}/${PN}
     mv ${D}${datadir}/docs/* ${D}${docdir}/${PN}
     rmdir ${D}${datadir}/docs
     install -d ${D}${sbindir}
