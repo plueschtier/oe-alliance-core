@@ -3,9 +3,9 @@ HOMEPAGE = "http://pythonwifi.wikispot.org/"
 SECTION = "devel/python"
 LICENSE = "LGPLv2+"
 LICENSE_${PN}-examples = "GPLv2+"
-LIC_FILES_CHKSUM = "file://README;beginline=56;endline=57;md5=31ebd3ff22b6f3c0160a143e0c4a98a3 \
-                    file://examples/iwconfig.py;beginline=1;endline=20;md5=60fd41501905b3e20e9065995edfc0cf \
-                    file://pythonwifi/iwlibs.py;beginline=1;endline=22;md5=679475d61cc083a24158bb8b473f0c6f"
+LIC_FILES_CHKSUM = "file://README;beginline=56;endline=57;md5=68b329da9893e34099c7d8ad5cb9c940 \
+                    file://examples/iwconfig.py;beginline=1;endline=20;md5=68b329da9893e34099c7d8ad5cb9c940 \
+                    file://pythonwifi/iwlibs.py;beginline=1;endline=22;md5=aa48daae5660dfd2bb23b2cafe2789e1"
 RDEPENDS_${PN} = "python-ctypes python-datetime"
 PR = "r2"
 
