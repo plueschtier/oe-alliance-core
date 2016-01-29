@@ -9,9 +9,9 @@ LIC_FILES_CHKSUM = "file://README;beginline=56;endline=57;md5=31ebd3ff22b6f3c016
 RDEPENDS_${PN} = "python-ctypes python-datetime"
 PR = "r2"
 
-SRC_URI = "http://download.berlios.de/pythonwifi/${P}.tar.bz2"
-SRC_URI[md5sum] = "8fe7fd0a4edce1f9bedaff4acb7fd500"
-SRC_URI[sha256sum] = "3e3f645d37ab20450f60c785cec5f21b330f28a6c46c7c1b0898305dd7a34b26"
+SRC_URI = "https://pypi.python.org/packages/source/p/${PN}/${PN}-${PV}.tar.bz2"
+SRC_URI[md5sum] = "033227169230286a63b9c059e7465c77"
+SRC_URI[sha256sum] = "7bff6afbc03b1cb13f987e5cf3b597b8821a1b86e5b34182406d98657f1b2c91"
 
 inherit setuptools
 
