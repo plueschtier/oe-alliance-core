@@ -4,7 +4,7 @@ HOMEPAGE = "http://www.openssl.org/"
 BUGTRACKER = "http://www.openssl.org/news/vulnerabilities.html"
 SECTION = "libs/network"
 
-INC_PR = "r17"
+INC_PR = "r18"
 
 # "openssl | SSLeay" dual license
 LICENSE = "openssl"
@@ -180,8 +180,8 @@ SRC_URI += "file://configure-targets.patch \
             file://shared-libs.patch \
             file://parallel-make-fix.patch"
 
-SRC_URI[md5sum] = "ee17e9bc805c8cc7d0afac3b0ef78eda"
-SRC_URI[sha256sum] = "7ce0c7f2c451070b4497ea7ca6f23eba6cef1a56db2e86e433f65926a7bc7497"
+SRC_URI[md5sum] = "c813c065dd53d7bd0a560a870ddd0af5"
+SRC_URI[sha256sum] = "f1d9f3ed1b85a82ecf80d0e2d389e1fda3fca9a4dba0bf07adbf231e1a5e2fd6"
 
 EXTRA_OECONF += "no-idea no-mdc2 no-rc5"
 
