@@ -20,7 +20,6 @@ RDEPENDS_${PN} = " \
     dvb-usb-drivers-meta \
     network-usb-drivers-meta \
     channelsettings-enigma2-meta \
-    picons-enigma2-meta \
     packagegroup-openplugins \
     meta-enigma2-dvdburn \
     \
